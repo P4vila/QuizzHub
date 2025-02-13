@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Azul_view">#02A4E7</color>
+    <color name="Azul_textedit">#185EE2</color>
+    <color name="Naranja_botones">#FF9934</color>
+    <color name="Fondo_menu">#477AEC</color>
+    <color name="Menu_nav">#2DA1DE</color>
+    <color name="Boton_jugar">#21A9E3</color>
+    <color name="Boton_categorias">#B0CD37</color>
+    <color name="Boton_ajustes">#37CDAF</color>
+    <color name="Boton_salir">#ED5F5E</color>
+    <color name="Modo_juego">#719BF7</color>
+    <color name="Modo_juego_view">#3381D4</color>
+    <color name="Celeste_boton">#A4D8F4</color>
+    <color name="boton_geografia">#0060F9</color>
+    <color name="boton_ciencia">#00D956</color>
+    <color name="boton_historia">#FFC501</color>
+    <color name="boton_entretenimiento">#FE00B8</color>
+    <color name="boton_arte">#FF002A</color>
+    <color name="boton_deporte">#FF8B00</color>
+    <color name="toolbar_color">#2F74BE</color>
+    <color name="view_toolbar">#205E95</color>
+    <color name="preguntas_azul">#2AA9EA</color>
+    <color name="seleccionada_color">#FFC501</color>
+    <color name="correcta_color">#00D956</color>
+    <color name="incorrecta_color">#FF002A</color>
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!--ACTIVITY LOGIN-->
+
+
+        <string name="app_name">QuizHub</string>
+        <string name="hint_email">Email</string>
+        <string name="hint_password">Password</string>
+        <string name="forgot_password">Forgot your password?</string>
+        <string name="btn_login">Login</string>
+        <string name="register_text">Dont have an account? Sign up</string>
+
+
+        <!--ACTIVITY REGISTRO-->
+
+        <string name="btn_register">Register</string>
+        <string name="hint_name">Complete Name</string>
+        <string name="hint_telephone">Telephone Number</string>
+        <string name="already_account">Do you already have an account?</string>
+
+        <!-- ACTIVITY RESTABLECER CONTRASEÑA 1 -->
+
+        <string name="insert_email_number">Insert your Email or Phone Number</string>
+        <string name="btn_reset_password">Reset Password</string>
+        <string name="hint_email_phone">Email/Telephone Number</string>
+
+        <!-- ACTIVITY RESTABLECER CONTRASEÑA CÓDIGO -->
+
+        <string name="insert_sentcode">Enter the Code we have sent you</string>
+        <string name="hint_code">Code</string>
+        <string name="btn_send_code">Sent Code</string>
+
+
+        <!-- ACTIVITY RESTABLECER CONTRASEÑA, NUEVA CONTRASEÑA -->
+
+
+        <string name="insert_new_password">Insert your new Password</string>
+        <string name="hint_new_password">New Password</string>
+        <string name="hint_repeat_password">Repeat Password</string>
+        <string name="btn_save_password">Save Password</string>
+
+
+        <!-- SPLASH SCREEN -->
+
+        <string name="develop_splash">Developed by José Manuel Piñero
+        and Luciana Perez</string>
+        <string name="version_splash">Version 1.0</string>
+
+        <!-- MENU PRINCIPAL -->
+
+        <string name="title_activity_menu_principal">Menu_Principal_Activity</string>
+        <string name="title_home">Home</string>
+        <string name="title_play">Play Game</string>
+        <string name="title_scores">Scores</string>
+        <string name="title_profile">Profile</string>
+        <string name="btn_jugar">Play</string>
+        <string name="btn_categorías">Categories</string>
+        <string name="btn_ajustes">Settings</string>
+        <string name="btn_salir">Exit</string>
+
+        <!--  MODO DE JUEGO -->
+        <string name="game_mode">GAME MODE</string>
+        <string name="btn_contra">With Time Trial</string>
+        <string name="btn_online">Private Party</string>
+
+        <!-- CATEGORIAS -->
+        <string name="Geography">GEOGRAPHY</string>
+        <string name="Entertaiment">ENTERTAIMENT</string>
+        <string name="Science">SCIENCE</string>
+        <string name="History">HISTORY</string>
+        <string name="Art">ART AND LITERATURE </string>
+        <string name="Sport">SPORTS</string>
+        <string name="Category_bar">CATEGORY</string>
+
+        <!-- AJUSTES -->
+
+        <string name="Settings_bar">SETTINGS</string>
+        <string name="Language">LANGUAGE</string>
+        <string name="Country">YOUR COUNTRY</string>
+        <string name="Country_selected_spain">Spain</string>
+        <string name="Country_selected_uk">English</string>
+
+
+        <!--   PERFIL -->
+
+        <string name="Profile_bar">PROFILE</string>
+        <string name="User_name">Loading...</string>
+        <string name="Level">Loading level...</string>
+        <string name="Points">Loading Points...</string>
+        <string name="Logout">Log-out</string>
+        <string name="Status">Statistics</string>
+        <string name="Correct_Answer">Correct Answers</string>
+        <string name="Incorrect_Answer">Incorrect Answer</string>
+        <string name="Games_played">Games Played</string>
+
+        <!-- RESULTADOS PERSONALES PARTIDA -->
+        <string name="Result_bar">RESUME</string>
+        <string name="Result">RESULTS</string>
+        <string name="Marks">SCORE</string>
+        <string name="Result_Correct_Answer">Incorrect answers</string>
+        <string name="Result_Incorrect_Answer">Correct answers</string>
+        <string name="Show_Lobby_Ranking">Show room Ranking</string>
+        <string name="PLay_Again">Play Again</string>
+        <string name="Resume">Resume</string>
+        <string name="Return_menu">Return to menu</string>
+
+
+        <!-- RANKING DE SALA -->
+        <string name="Ranking_room">🏆ROOM RANKING🏆</string>
+
+
+
+</resources>

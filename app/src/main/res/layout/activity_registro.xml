@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro_Activity">
+
+
+
+
+    <!-- ImageView de fondo -->
+
+
+    <!-- View de fondo login etc-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="859dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondoregistro" />
+
+
+    <!--Logo de APP-->
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="347dp"
+        android:layout_height="296dp"
+        android:alpha="0.8"
+        android:background="@drawable/rounded_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="213dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/logo_quizzhub" />
+
+
+    <!--INPUT TEXT PARA EMAIL -->
+
+    <View
+        android:id="@+id/view_Nombre"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:alpha="0.6"
+        android:background="@drawable/rounded_view_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <View
+        android:id="@+id/view_Telefono"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:alpha="0.6"
+        android:background="@drawable/rounded_view_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <View
+        android:id="@+id/view_Email"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:alpha="0.6"
+        android:background="@drawable/rounded_view_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <View
+        android:id="@+id/view_Contrasena"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:alpha="0.6"
+        android:background="@drawable/rounded_view_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_Email"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <EditText
+        android:id="@+id/hint_email"
+        android:layout_width="281dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:hint="Email"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/view_Email"
+        app:layout_constraintEnd_toEndOf="@+id/view_Email"
+        app:layout_constraintStart_toStartOf="@+id/view_Email"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!--INPUT TEXT PARA CONTRASEÑA -->
+
+    <EditText
+        android:id="@+id/hint_password"
+        android:layout_width="281dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_regular"
+        android:textColorHint="@color/white"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/view_Contrasena"
+        app:layout_constraintEnd_toEndOf="@+id/view_Contrasena"
+        app:layout_constraintStart_toStartOf="@+id/view_Contrasena"
+        app:layout_constraintTop_toTopOf="@+id/view_Contrasena"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="331dp"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/Naranja_botones"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/btn_register"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <View
+        android:id="@+id/viewInferior"
+        android:layout_width="432dp"
+        android:layout_height="80dp"
+        android:alpha="0.6"
+        android:background="@drawable/rounded_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register"
+        app:layout_constraintVertical_bias="0.588" />
+
+
+    <TextView
+        android:id="@+id/already_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/already_account"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewInferior"
+        app:layout_constraintEnd_toEndOf="@+id/viewInferior"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewInferior"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <!--Google ImageButton-->
+    <ImageButton
+        android:id="@+id/imageButtongoogle"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/viewInferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/already_account"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/google" />
+
+    <!--Apple ImageButton-->
+    <ImageButton
+        android:id="@+id/imageButtonapple"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/viewInferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButtongoogle"
+        app:layout_constraintTop_toBottomOf="@+id/already_account"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/apple" />
+
+    <EditText
+        android:id="@+id/hint_telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:fontFamily="@font/roboto_regular"
+        android:textColorHint="@color/white"
+        android:hint="@string/hint_telephone"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_Telefono"
+        app:layout_constraintEnd_toEndOf="@+id/view_Telefono"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="@+id/view_Telefono"
+        app:layout_constraintTop_toTopOf="@+id/view_Telefono"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/hint_name"
+        android:layout_width="281dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_regular"
+        android:textColorHint="@color/white"
+        android:hint="@string/hint_name"
+        android:inputType="text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/view_Nombre"
+        app:layout_constraintEnd_toEndOf="@+id/view_Nombre"
+        app:layout_constraintStart_toStartOf="@+id/view_Nombre"
+        app:layout_constraintTop_toTopOf="@+id/view_Nombre" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

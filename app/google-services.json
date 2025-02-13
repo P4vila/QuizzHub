@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661582876927",
+    "project_id": "quizz-hub-2025",
+    "storage_bucket": "quizz-hub-2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661582876927:android:14b60502ba471ffbfffcca",
+        "android_client_info": {
+          "package_name": "com.example.quizzhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOvP2yPee-AXRhTqcLLuuAEdopzaHcF4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

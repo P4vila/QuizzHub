@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restablecer_Codigo_Activity">
+
+
+
+
+    <!-- ImageView de fondo -->
+
+
+    <!-- View de fondo login etc-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="859dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondoregistro" />
+
+
+    <!--Logo de APP-->
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="356dp"
+        android:layout_height="169dp"
+        android:alpha="0.8"
+        android:background="@drawable/rounded_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="213dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/logo_quizzhub" />
+
+
+    <!--INPUT TEXT PARA EMAIL -->
+
+    <!--INPUT TEXT PARA CONTRASEÑA -->
+
+
+    <View
+        android:id="@+id/view_Telefono"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:alpha="0.6"
+        android:background="@drawable/rounded_view_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.265" />
+
+    <Button
+        android:id="@+id/btn_restablecer"
+        android:layout_width="331dp"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/Naranja_botones"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/btn_send_code"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="307dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/insert_sentcode"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/view_Telefono"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <EditText
+        android:id="@+id/text_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:hint="@string/hint_code"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/view_Telefono"
+        app:layout_constraintEnd_toEndOf="@+id/view_Telefono"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/view_Telefono"
+        app:layout_constraintTop_toTopOf="@+id/view_Telefono" />
+
+
+
+    <View
+        android:id="@+id/viewInferior"
+        android:layout_width="432dp"
+        android:layout_height="80dp"
+        android:alpha="0.6"
+        android:background="@drawable/rounded_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_restablecer"
+        app:layout_constraintVertical_bias="0.588" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
