@@ -43,7 +43,7 @@
 
 ### Vista general de Proyecto una vez clonado 
 - Una vez clonado el repositorio a Android Studio tendrás una visión parecida a esta
-- ![VISTA GENERAL](assets/VISTA.png)
+- ![VISTA GENERAL](assets/Actitivititititit.png)
 
 ## Funcionalidades
 
