@@ -111,4 +111,16 @@
     <!-- RANKING DE SALA -->
     <string name="Ranking_room">🏆RANKING DE SALA🏆</string>
 
+
+    <!-- SALA ONLINE -->
+    <string name="Toolbar_Sala_Online">SALA ONLINE</string>
+    <string name="Crear_sala_btn">Crear Sala</string>
+    <string name="Crear_sala_texto">¡CREA TU SALA AHORA!</string>
+    <string name="Ingresa_Texto">¡Ingresa el código y únete a la partida!</string>
+    <string name="Unirse_sala_btn">Unirme a Sala</string>
+    <string name="Sala_codigo_texto">Se asignará un número automático para tu sala</string>
+    <string name="Introduce_numero_sala">Introduce el número de sala</string>
+    <string name="hint_numero_sala">Número de sala</string>
+
+
 </resources>

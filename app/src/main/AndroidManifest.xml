@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.quizzhub">
 
+    <!-- Permiso para acceder a Internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,25 +17,31 @@
         android:theme="@style/Theme.QuizzHub"
         tools:targetApi="31">
         <activity
+            android:name=".GameClientActivity"
+            android:exported="true" />
+        <activity
+            android:name=".modo_de_juego"
+            android:exported="true" /> <!-- Activities -->
+        <activity
+            android:name=".Sala_Online"
+            android:exported="true" />
+        <activity
             android:name=".Partida_Activity"
             android:exported="true" />
         <activity
             android:name=".Resultados_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Perfil_Activity"
             android:exported="true" />
         <activity
             android:name=".Ranking_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Ajustes_Activity"
             android:exported="true" />
         <activity
             android:name=".Categorias_Activity"
-            android:exported="true" />
-        <activity
-            android:name=".Modo_de_juego_Activity"
             android:exported="true" />
         <activity
             android:name=".Menu_Principal_Activity"

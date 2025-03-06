@@ -38,7 +38,7 @@ public class Menu_Principal_Activity extends AppCompatActivity {
 
         // Acción al hacer clic en "Jugar"
         buttonJugar.setOnClickListener(v -> {
-            Intent intentPlay = new Intent(Menu_Principal_Activity.this, Modo_de_juego_Activity.class);
+            Intent intentPlay = new Intent(Menu_Principal_Activity.this, modo_de_juego.class);
             startActivity(intentPlay);
         });
 
@@ -85,7 +85,7 @@ public class Menu_Principal_Activity extends AppCompatActivity {
             if (item.getItemId() == R.id.navigation_home) {
                 return true;
             } else if (item.getItemId() == R.id.navigation_play) {
-                Intent intent = new Intent(Menu_Principal_Activity.this, Modo_de_juego_Activity.class);
+                Intent intent = new Intent(Menu_Principal_Activity.this, modo_de_juego.class);
                 startActivity(intent);
                 return true;
             } else if (item.getItemId() == R.id.navigation_scores) {

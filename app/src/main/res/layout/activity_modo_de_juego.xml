@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Modo_juego"
-    tools:context=".Modo_de_juego_Activity">
+    tools:context=".modo_de_juego">
+
 
 
     <View
@@ -95,3 +96,7 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

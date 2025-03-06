@@ -110,6 +110,17 @@
         <!-- RANKING DE SALA -->
         <string name="Ranking_room">🏆ROOM RANKING🏆</string>
 
+        <!-- ONLINE ROOM -->
+        <string name="Toolbar_Sala_Online">ONLINE ROOM</string>
+        <string name="Crear_sala_btn">Create Room</string>
+        <string name="Crear_sala_texto">CREATE YOUR ROOM NOW!</string>
+        <string name="Ingresa_Texto">Enter the code and join the game!</string>
+        <string name="Unirse_sala_btn">Join Room</string>
+        <string name="Sala_codigo_texto">A number will be automatically assigned to your room</string>
+        <string name="Introduce_numero_sala">Enter the room number</string>
+        <string name="hint_numero_sala">Room code</string>
+
+
 
 
 </resources>

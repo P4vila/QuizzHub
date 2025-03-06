@@ -21,9 +21,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:titleTextColor="@android:color/white" />
 
-
-
-
     <View
         android:id="@+id/viewmoneda"
         android:layout_width="90dp"
@@ -49,10 +46,10 @@
         app:srcCompat="@drawable/points_coin" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/text_view_moneda"
         android:layout_width="51dp"
         android:layout_height="18dp"
-        android:text="TextView"
+        android:text="0 pts"
         android:textColor="@color/white"
         android:textSize="10dp"
         android:scaleType="fitCenter"
@@ -89,21 +86,42 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.13" />
 
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="30"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toStartOf="@+id/viewmoneda"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.487" />
+
     <TextView
         android:id="@+id/textViewPregunta"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:fontFamily="@font/roboto_bold"
         android:gravity="center"
         android:text="Pregunta"
         android:textColor="@color/white"
-        android:textSize="40sp"
+        android:textSize="30sp"
+        android:maxLines="4"
+        android:ellipsize="end"
         app:layout_constraintBottom_toTopOf="@id/btnOpcion1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.437" />
+
+
+
 
     <Button
         android:id="@+id/btnOpcion1"
@@ -168,4 +186,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOpcion3"
         app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toStartOf="@+id/textViewTimer"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.527"
+        app:srcCompat="@drawable/timer" />
 </androidx.constraintlayout.widget.ConstraintLayout>
